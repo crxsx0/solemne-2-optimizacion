@@ -1,0 +1,127 @@
+[
+  {
+    "id": "gp1",
+    "nombre": "Guardia Planta 1",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp2",
+    "nombre": "Guardia Planta 2",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp3",
+    "nombre": "Guardia Planta 3",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp4",
+    "nombre": "Guardia Planta 4",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp5",
+    "nombre": "Guardia Planta 5",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp6",
+    "nombre": "Guardia Planta 6",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp7",
+    "nombre": "Guardia Planta 7",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp8",
+    "nombre": "Guardia Planta 8",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp9",
+    "nombre": "Guardia Planta 9",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp10",
+    "nombre": "Guardia Planta 10",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp11",
+    "nombre": "Guardia Planta 11",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp12",
+    "nombre": "Guardia Planta 12",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp13",
+    "nombre": "Guardia Planta 13",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp14",
+    "nombre": "Guardia Planta 14",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp15",
+    "nombre": "Guardia Planta 15",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp16",
+    "nombre": "Guardia Planta 16",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp17",
+    "nombre": "Guardia Planta 17",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp18",
+    "nombre": "Guardia Planta 18",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp19",
+    "nombre": "Guardia Planta 19",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp20",
+    "nombre": "Guardia Planta 20",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp21",
+    "nombre": "Guardia Planta 21",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp22",
+    "nombre": "Guardia Planta 22",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp23",
+    "nombre": "Guardia Planta 23",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp24",
+    "nombre": "Guardia Planta 24",
+    "tipo": "planta"
+  },
+  {
+    "id": "gp25",
+    "nombre": "Guardia Planta 25",
+    "tipo": "planta"
+  }
+]

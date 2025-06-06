@@ -1,0 +1,77 @@
+[
+  {
+    "id": "go1",
+    "nombre": "Guardia Ocasional 1",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go2",
+    "nombre": "Guardia Ocasional 2",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go3",
+    "nombre": "Guardia Ocasional 3",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go4",
+    "nombre": "Guardia Ocasional 4",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go5",
+    "nombre": "Guardia Ocasional 5",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go6",
+    "nombre": "Guardia Ocasional 6",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go7",
+    "nombre": "Guardia Ocasional 7",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go8",
+    "nombre": "Guardia Ocasional 8",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go9",
+    "nombre": "Guardia Ocasional 9",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go10",
+    "nombre": "Guardia Ocasional 10",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go11",
+    "nombre": "Guardia Ocasional 11",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go12",
+    "nombre": "Guardia Ocasional 12",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go13",
+    "nombre": "Guardia Ocasional 13",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go14",
+    "nombre": "Guardia Ocasional 14",
+    "tipo": "ocasional"
+  },
+  {
+    "id": "go15",
+    "nombre": "Guardia Ocasional 15",
+    "tipo": "ocasional"
+  }
+]
