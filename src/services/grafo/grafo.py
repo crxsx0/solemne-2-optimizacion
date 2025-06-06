@@ -9,8 +9,8 @@ class Grafo:
     def agregar_nodo(self, nodo: Nodo):
         self.nodos[nodo.id] = nodo
 
-    def conectar_si_valido(self, guardia: Guardia, locacion: Locacion, tiempo: float, max_tiempo: float = 2.5):
-        if guardia.tipo == "ocasional" or tiempo <= max_tiempo:
+    def conectar(self, guardia: Guardia, locacion: Locacion, tiempo: float, max_tiempo: float = 2.5):
+        if guardia.tipo == "planta" and tiempo < max_tiempo:
             guardia.conectar(locacion, tiempo)
             locacion.conectar(guardia, tiempo)
             
