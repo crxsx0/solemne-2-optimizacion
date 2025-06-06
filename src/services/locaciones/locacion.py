@@ -2,14 +2,29 @@ from ..nodo.nodo import Nodo
 from ..guardias.guardias import Guardia
 
 class Locacion(Nodo):
-    def __init__(self, id: int, nombre: str, turnos: list[str] = None):
+    def __init__(self, id: int, nombre: str, turnos: list[str] = None, demanda_diaria: int = 1):
         super().__init__(id)
         self.nombre = nombre
         self.turnos = turnos
-        self.cobertura = {dia: {turno: [] for turno in turnos} for dia in ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]}
+        self.demanda_diaria = demanda_diaria
+        self.cobertura = {
+            dia: {turno: [] for turno in turnos}
+            for dia in [
+                "lunes",
+                "martes",
+                "miércoles",
+                "jueves",
+                "viernes",
+                "sábado",
+                "domingo",
+            ]
+        }
 
     def __repr__(self):
-        return f"Locacion(id={self.id}, nombre={self.nombre}, turnos={self.turnos})"
+        return (
+            f"Locacion(id={self.id}, nombre={self.nombre}, "
+            f"turnos={self.turnos}, demanda_diaria={self.demanda_diaria})"
+        )
 
     def asignar_guardia(self, dia: str, turno: str, guardia: Guardia):
         self.cobertura[dia][turno].append(guardia.id)

@@ -5,6 +5,6 @@ COSTOS_GUARDIAS = {
     'ocasional': 47000
 }
 
-HORAS_MAX_SEMANA = 47
+HORAS_MAX_SEMANA = 42
 
 TURNOS = ["mañana", "tarde", "noche"]
