@@ -12,7 +12,7 @@ from services.guardias.ocasionales import GuardiaOcasional
 from services.locaciones.locacion import Locacion
 from algorithms.initial_solution import construir_solucion_inicial
 
-BASE_PATH = Path("data/inputs")
+BASE_PATH = Path(__file__).resolve().parent / "data" / "inputs"
 
 def crear_grafo_desde_datos(guardias_planta:list=None, locaciones: list=None, tiempos_od:list=None):
     grafo = Grafo()
@@ -52,7 +52,12 @@ if __name__ == "__main__":
     # Crear nodos locaciones
     locaciones = []
     for l in datos_locaciones:
-        locacion = Locacion(l.id, l.nombre, l.turnos)
+        locacion = Locacion(
+            l.id,
+            l.nombre,
+            l.turnos,
+            demanda_diaria=l.demanda_diaria,
+        )
         locaciones.append(locacion)
 
     grafo = crear_grafo_desde_datos(
@@ -69,5 +74,6 @@ if __name__ == "__main__":
     )
     print(f"Solución inicial construida con {len(solucion_inicial)} asignaciones.")
     
-    with open("data/outputs/solucion_inicial.json", "w") as f:
-        json.dump([asignacion.model_dump() for asignacion in solucion_inicial], f, indent=4)
+    output_path = Path(__file__).resolve().parent / "data" / "outputs" / "solucion_inicial.json"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump([a.model_dump() for a in solucion_inicial], f, indent=4)
