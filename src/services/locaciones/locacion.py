@@ -20,12 +20,6 @@ class Locacion(Nodo):
             ]
         }
 
-    def __repr__(self):
-        return (
-            f"Locacion(id={self.id}, nombre={self.nombre}, "
-            f"turnos={self.turnos}, demanda_diaria={self.demanda_diaria})"
-        )
-
     def asignar_guardia(self, dia: str, turno: str, guardia: Guardia):
         self.cobertura[dia][turno].append(guardia.id)
 
@@ -39,3 +33,6 @@ class Locacion(Nodo):
         for dia in self.cobertura:
             for turno in self.turnos:
                 self.cobertura[dia][turno] = []
+
+    def __repr__(self):
+        return f"Locacion({self.id}, {self.nombre})"
